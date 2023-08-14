@@ -1,0 +1,143 @@
+/* Responsiveness */
+@media (min-width: 1024px) {
+  
+
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+    .menu li{
+        float: left;
+    }
+    .menu a:hover{
+        background-color: transparent;
+        color:
+    }
+
+    .hamb{
+        display: none;
+    }
+    .titulo_desktop {
+        display: block;
+    }
+
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+
+    align-items: center;
+ 
+}
+
+
+.logo{
+
+    background-color: white;
+    margin-bottom: 6vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+ 
+       box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    
+}
+
+
+
+.banner{
+  width: 100%;
+  height: 100%;
+  background-image: url(fundo.webp);
+  background-size: cover;
+  background-position: 50px;
+}
+
+
+.titulo{
+    margin-top: 8vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5vh;
+    text-align: center;
+    margin-bottom: 6vh;
+    position: relative;
+    color: white;
+    margin-bottom: 8vh;
+}
+
+.pergunta{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2vh;
+    margin-right: 3vh;
+    margin-left: 3vh;
+    margin-bottom: 1vh;    
+}
+
+
+.sites{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 1vh;
+    margin-left: 6%;
+    transition: transform 0.2s ease;
+    margin-right: 6%;
+    text-align: center;
+    flex: 0 0 auto ;
+    align-items: last baseline ;
+    transition: transform 0.5s;
+}
+
+.sites img{
+    max-width: 100%;
+    height: auto; 
+    
+    object-fit: contain; 
+    border-radius: 1vh; 
+    height: auto;
+}
+
+.sites:hover{
+    transform: scale(1.1);
+}
+
+
+.carrossel{
+    align-items: center;
+    text-align: center;
+    padding: 2vh;
+    gap: 2vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.texto{
+    padding: 4vh;
+    border-radius: 2vh;
+    background-color: rgb(131, 224, 193);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vh;
+    margin-right: 3vh;
+    margin-left: 3vh;
+    margin-bottom: 3vh;
+    text-align: justify;
+    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.rodape{
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    margin-top: 2vh;
+    color: rgb(8, 136, 143);
+}
